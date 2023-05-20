@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    height: 90vh;
+    width: 100%;
+    background-image: url(images/1626859103_15-p-foni-s-krasnimi-mashinkami-16.jpg);
+    color: aliceblue;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+#title h1 {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.container-nav {
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.container-fluid {
+    padding: 2% 10%;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.call-bt {
+    margin: 5% 5% 0 0;
+}
+
+#features {
+    padding: 2% 15%;
+    text-align: center;
+    background-color: black;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+#features h3 {
+    font-weight: bold;
+    color: rgb(183, 188, 201);
+    font-family: Ubuntu;
+}
+
+#features p {
+    color: rgb(183, 188, 201);
+
+}
+
+.icon {
+    margin-bottom: 16px;
+    color: rgb(183, 188, 201);
+}
+
+.icon:hover {
+    color: gray;
+}
+
+#colors {
+    padding: 2% 7%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/IMG_5843.jpg);
+    color: aliceblue;
+
+
+}
+
+#colors h2 {
+    font-size: 2rem;
+    font-family: Ubuntu;
+}
+
+#colors h1 {
+    font-size: 3rem;
+    font-family: Ubuntu;
+    padding-bottom: 30px;
+}
+
+#colors h5 {
+    font-size: 30px;
+    font-family: Ubuntu;
+
+}
+
+#colors img {
+    width: 42%;
+    height: auto;
+    padding-bottom: 3%;
+    border-radius: 10%;
+
+}
+
+#review {
+    text-align: center;
+    background-image: url(images/IMG_5843.jpg);
+    height: auto;
+    padding-bottom: 5%;
+
+}
+
+#review h1 {
+    padding-top: 4%;
+    font-size: 3rem;
+    font-family: Ubuntu;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+#review p {
+    font-size: 1rem;
+    font-family: Ubuntu;
+    padding-bottom: 30px;
+    color: rgb(120, 123, 126);
+}
+
+.img-fliud {
+    width: 70%;
+    height: auto;
+    border-radius: 14%;
+    cursor: pointer;
+    margin-bottom: 3%;
+
+}
+
+.img-fliud:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(219, 122, 122);
+}
+
+#ask {
+
+    background-image: url(images/IMG_5843.jpg);
+    color: white;
+    font-family: Ubuntu;
+
+}
+
+
+.form-control {
+    padding-left: 10%;
+    display: block;
+    width: 70%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    color: rgb(255, 255, 255);
+    border: 0;
+    background: #191919;
+    padding: 20px 40px;
+    outline: none;
+    transition: 0.5s;
+
+}
+
+.askme {
+    background-size: cover;
+    padding: 40px;
+    color: white;
+    padding-left: 14%;
+
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #591b1b;
+
+}
+
+
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+footer h4 {
+    font-size: 20px;
+    color: white;
+
+
+}
+
+#ask {
+    position: relative;
+    background-image: url(images/IMG_5843.jpg);
+}
+
+.contact {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding-top: 10%;
+    padding-right: 18%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+
+}
+
+.contact h1 {
+    padding-bottom: 2%;
+    font-size: 60px;
+    color: rgb(216, 217, 218);
+
+}
+
+.contact h2 {
+    font-size: 27px;
+    color: rgb(112, 115, 118);
+
+}
+
+
+#carc {
+    height: 1100px;
+    background-image: url(images/IMG_5843.jpg);
+}
+
+#carc {
+    padding: 2% 7%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/IMG_5843.jpg);
+    color: aliceblue;
+
+
+}
+
+#carc h2 {
+    font-size: 2rem;
+    font-family: Ubuntu;
+}
+
+#carc h1 {
+    font-size: 3rem;
+    font-family: Ubuntu;
+    padding-bottom: 30px;
+}
+
+#carc h5 {
+    font-size: 30px;
+    font-family: Ubuntu;
+
+}
+
+#carc img {
+    width: 42%;
+    height: auto;
+    padding-bottom: 3%;
+    border-radius: 10%;
+
+}
+
+
+#rev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/IMG_5843.jpg);
+    padding-bottom: 5%;
+}
+
+.btnr {
+    margin-top: 20%;
+    margin-bottom: auto;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+}
+
+
+#rev h1 {
+    padding-top: 6%;
+    font-size: 3rem;
+    font-family: Ubuntu;
+    padding-bottom: 2%;
+    color: aliceblue;
+}
+
+#rev p {
+    font-size: 1rem;
+    font-family: Ubuntu;
+    padding-bottom: 30px;
+    color: rgb(120, 123, 126);
+}
+
+.btnc {
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btnc:hover {
+    background-color: #4b3737;
+
+}
+
+.container-r {
+    background-image: url(images/IMG_5843.jpg);
+}
